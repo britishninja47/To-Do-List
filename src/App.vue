@@ -57,13 +57,12 @@ onMounted(() => {
 
   <section class="greeting">
     <h2 class="title">
-      Hey, how are you? <input type="text" placeholder="Name here" v-model="name" />
+      How are you, <input type="text" placeholder="Name Here" v-model="name" />
     </h2>
-
   </section>
 
   <section class="create-todo">
-    <h3>Make a To-Do-List</h3>
+    <h3>Start a To-Do-List</h3>
 
     <form @submit.prevent="addTodo">
       <h4>What's On Your List?</h4>
