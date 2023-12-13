@@ -57,7 +57,7 @@ onMounted(() => {
 
   <section class="greeting">
     <h2 class="title">
-      How are you, <input type="text" placeholder="Name Here" v-model="name" />
+      Welcome, <input type="text" placeholder="Name Here" v-model="name" />
     </h2>
   </section>
 
@@ -98,7 +98,7 @@ onMounted(() => {
 
       </div>
 
-      <input type="submit" value="Add Todo" />
+      <input type="submit" value="Add To-do" />
     </form>
   </section>
 
